@@ -1,0 +1,35 @@
+# Delphi build output
+Win32/
+Win64/
+*.dcu
+*.dll
+*.exe
+*.map
+*.local
+*.identcache
+*.stat
+*.res
+*.drc
+*.dsm
+*.err
+*.rsm
+*.tds
+__history/
+ModelSupport_*/
+
+# DLL 
+!src/Win32/
+!src/Win32/Release/
+!src/Win32/Release/HelpDeskWeb.dll
+
+# Local SQL Server data and backups
+*.mdf
+*.ldf
+*.ndf
+*.trn
+*.bak
+
+# IDE and OS files
+*.~*
+.DS_Store
+Thumbs.db
